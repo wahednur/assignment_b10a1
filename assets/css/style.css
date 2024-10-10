@@ -71,6 +71,7 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 24px;
 }
 .section-title p {
   color: #0d1321;
@@ -81,6 +82,32 @@ a {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+section {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.btn-learn {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  padding: 12px 20px;
+  transition: all ease-in-out 0.3s;
+}
+.btn-learn:hover {
+  background: #0d1321;
+  color: white;
+  opacity: 1;
 }
 /* Global css end  */
 
@@ -147,3 +174,48 @@ nav {
   line-height: 26px; /* 162.5% */
 }
 /* Slider css end  */
+
+/* Why Web Development css start  */
+.why-wrap {
+  padding: 80px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.why-content .why-item {
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.why-content .why-item h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  width: 390px;
+  margin-bottom: 16px;
+}
+.why-content .why-item p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
+.why-content .why-item .btn-learn {
+  float: left;
+  margin-top: 44px;
+}
+
+/* Why Web Development css end  */
