@@ -20,7 +20,6 @@ a {
 }
 
 .btn {
-  gap: 10px;
   color: #fff;
   text-align: center;
   font-family: "Azeret Mono";
@@ -29,9 +28,12 @@ a {
   border-radius: 8px;
   background: #0d1321;
   transition: all ease-in-out 0.3s;
+  padding: 21px 24px;
 }
 .btn:hover {
-  background: #002d96;
+  color: #0d1321;
+  border: 1px solid #0d1321;
+  background: #fff;
 }
 
 .btn-outline {
@@ -81,3 +83,46 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+/* Slider css start  */
+.slider {
+  background-image: url("/assets/img/Hero-bg.png");
+  width: 100%;
+  aspect-ratio: 2.2;
+  float: left;
+  display: block;
+  padding: 32px 0;
+  max-height: 652px;
+}
+.slider .content {
+  width: 1140px;
+  aspect-ratio: 2.2;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.slider .content img {
+  width: 240px;
+}
+.slider .content .title {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px; /* 141.667% */
+}
+.slider .content p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+/* Slider css end  */
