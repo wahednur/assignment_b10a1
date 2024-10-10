@@ -82,6 +82,9 @@ a {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
+  width: 825px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .mt-80 {
   margin-top: 80px;
@@ -236,3 +239,58 @@ nav {
   border-radius: 16px;
 }
 /* My Inspiration css end  */
+
+/* My Current Target css start  */
+.cr-target {
+  margin-top: 150px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.flex h2 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+  margin-bottom: 10px;
+}
+.flex p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
+.flex a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-top: 24px;
+  float: left;
+}
+.cr-target .flex .item {
+  padding: 40px;
+}
+.bg-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.bg-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.bg-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+/* My Current Target css end  */
