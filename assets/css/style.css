@@ -107,6 +107,9 @@ footer {
   opacity: 0.7;
   padding: 12px 20px;
   transition: all ease-in-out 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-self: center;
 }
 .btn-learn:hover {
   background: #0d1321;
@@ -221,6 +224,10 @@ nav {
   float: left;
   margin-top: 44px;
 }
+.why-content .flex-col {
+  text-align: left !important;
+  float: left !important;
+}
 
 /* Why Web Development css end  */
 /* My Inspiration css start  */
@@ -299,7 +306,7 @@ nav {
 .current-target {
   margin-top: 110px;
 }
-.flex-col {
+.current-target .flex-col {
   display: flex;
   gap: 24px;
   flex-direction: column;
