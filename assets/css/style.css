@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
-
+/* Reset css star  */
 *,
 *::before,
 *::after {
@@ -12,6 +12,9 @@
 a {
   text-decoration: none;
 }
+/* Reset css end  */
+
+/* Global Css start  */
 .body {
   font-family: "Azeret Mono";
 }
@@ -47,8 +50,34 @@ a {
 .btn-outline:hover {
   background: #0d1321;
   opacity: 1;
+  color: #fff;
 }
 .container {
   max-width: 1140px;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Global css end  */
+
+/* header css start  */
+nav {
+  padding: 48px 0px;
+  background: #fff;
+}
+
+.nav a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* header css end  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
