@@ -340,3 +340,78 @@ nav {
   text-decoration-line: underline;
 }
 /* My Next Target section css end  */
+/* I need support section css start  */
+.support-bg {
+  padding: 64px 48px;
+  background-image: url("/assets/img/support.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 3.6;
+  border-radius: 16px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.support-bg .flex {
+  display: flex;
+  width: 548px;
+  padding: 19px 20px;
+  gap: 10px;
+}
+.support-bg h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+}
+.support-bg p {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+  width: 600px;
+}
+.frm-ctr {
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 20px;
+  width: 548px;
+  outline: none;
+}
+.sub-btn {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background: #fff;
+  padding: 17px 20px;
+  transition: all ease-in-out 0.3s;
+  border: none;
+}
+.sub-btn:hover {
+  background: #0d1321;
+  color: white;
+}
+/* I need support section css end  */
