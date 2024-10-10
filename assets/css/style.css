@@ -140,7 +140,7 @@ nav {
 }
 /* Slider css start  */
 .slider {
-  background-image: url("/assets/img/Hero-bg.png");
+  background-image: url("../img/Hero-bg.png");
   width: 100%;
   aspect-ratio: 2.2;
   float: left;
@@ -351,7 +351,7 @@ nav {
 /* I need support section css start  */
 .support-bg {
   padding: 64px 48px;
-  background-image: url("/assets/img/support.jpg");
+  background-image: url("../img/support.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
