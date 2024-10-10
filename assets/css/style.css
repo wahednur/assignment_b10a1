@@ -200,6 +200,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 32px;
 }
 .why-content .why-item h4 {
   color: rgba(13, 19, 33, 0.7);
