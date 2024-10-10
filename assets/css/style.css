@@ -89,7 +89,8 @@ a {
 .mt-80 {
   margin-top: 80px;
 }
-section {
+section,
+footer {
   width: 100%;
   display: block;
   float: left;
@@ -415,3 +416,28 @@ nav {
   color: white;
 }
 /* I need support section css end  */
+/* Footer section css start  */
+.footer {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer .flex {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .flex p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.social {
+  display: flex;
+  gap: 24px;
+}
+/* Footer section css end  */
